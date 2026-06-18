@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9b0a45c41137f439092b769c2ae920, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "novy dial\xF3g :D\nJUP\xCD\xCD\xCD"
+  - "Druh\xFD dial\xF3g\noh \u010Do je?"
+  responses:
+  - responseText: agreement
+    dialogueObject: {fileID: 11400000, guid: 70b6e87773f915f41b2cbdf619b56b42, type: 2}
+  - responseText: rejection
+    dialogueObject: {fileID: 11400000, guid: 5f6940b40fe2a3e47b16d54b6337f905, type: 2}
